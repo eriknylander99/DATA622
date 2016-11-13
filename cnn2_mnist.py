@@ -8,11 +8,11 @@ http://machinelearningmastery.com/handwritten-digit-recognition-using-convolutio
 
 
 To run:
-import cnn_mnist
-data = cnn_mnist.load_data()
-model = cnn_mnist.init_model()
-(model, loss) = cnn_mnist.run_network(data, model)
-cnn_mnist.plot_losses('loss.png', loss)
+import cnn2_mnist
+data = cnn2_mnist.load_data()
+model = cnn2_mnist.init_model()
+(model, loss) = cnn2_mnist.run_network(data, model)
+cnn2_mnist.plot_losses('loss.png', loss)
 Some of the image size parameter will need to be changed to use this with
 other types of data.
 '''
