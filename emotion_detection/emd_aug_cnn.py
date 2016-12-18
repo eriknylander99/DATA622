@@ -9,11 +9,11 @@ http://machinelearningmastery.com/handwritten-digit-recognition-using-convolutio
 @author: Erik Nylander
 
 To run:
-import emo_cnn
-data = emo_cnn.load_data()
-model = emo_cnn.init_model()
-(model, loss) = emo_cnn.run_network(data, model)
-emo_cnn.plot_losses('loss.png', loss)
+import emd_aug_cnn
+data = emd_aug_cnn.load_data()
+model = emd_aug_cnn.init_model()
+(model, loss) = emd_aug_cnn.run_network(data, model)
+emd_aug_cnn.plot_losses('loss.png', loss)
 Some of the image size parameter will need to be changed to use this with
 other types of data.
 '''
